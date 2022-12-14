@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@200;300;400&family=Nerko+One&family=Roboto:wght@300;400&family=Source+Serif+Pro:wght@200;400;600&display=swap');
+body{
+  height:100%;
+  width:100%;
+ font-family: 'Abril Fatface', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Nerko One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Serif Pro', serif;
+}
+h2{
+  text-align: center;
+}
+.container{
+ 
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  
+}
+.row{
+  margin:8px;
+  
+}
+button{
+  font-size:20px;
+  padding:20px;
+  border: 2px solid black;
+  border-radius:9px;
+  cursor:pointer;
+}
+.input{
+  padding: 5px;
+    height: 52px;
+    width: 202px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.input{
+  font-size: 28px;
+}
